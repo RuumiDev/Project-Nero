@@ -7,16 +7,31 @@
 
 ## Table of Contents
 
-1. [Objective](#objective)
-2. [Problem Statement](#problem-statement)
-3. [System Workflow](#system-workflow)
-4. [Features](#features)
-5. [Tech Stack & Frameworks](#tech-stack--frameworks)
-6. [Project Structure](#project-structure)
-7. [Getting Started](#getting-started)
-8. [Current Constraints & Limitations](#current-constraints--limitations)
-9. [Future Upgrades](#future-upgrades)
-10. [Security Notes](#security-notes)
+- [Project Nero](#project-nero)
+  - [Table of Contents](#table-of-contents)
+  - [Objective](#objective)
+  - [Problem Statement](#problem-statement)
+  - [System Workflow](#system-workflow)
+  - [Features](#features)
+    - [Student Kiosk](#student-kiosk)
+    - [Admin Dashboard](#admin-dashboard)
+    - [Student Enrollment](#student-enrollment)
+  - [Tech Stack \& Frameworks](#tech-stack--frameworks)
+    - [Recognition Model Details](#recognition-model-details)
+  - [Project Structure](#project-structure)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the App](#running-the-app)
+    - [First-Time Setup](#first-time-setup)
+  - [Production Considerations \& Technical Debt](#production-considerations--technical-debt)
+  - [Future Upgrades](#future-upgrades)
+    - [Security \& Auth](#security--auth)
+    - [Recognition \& Liveness](#recognition--liveness)
+    - [Data \& Infrastructure](#data--infrastructure)
+    - [UI / UX](#ui--ux)
+    - [Operations](#operations)
+  - [Security Notes](#security-notes)
 
 ---
 
@@ -213,7 +228,7 @@ Streamlit will open the app in your browser. Navigate using the sidebar:
 
 ---
 
-## Current Constraints & Limitations
+## Production Considerations & Technical Debt
 
 | Constraint | Description |
 |---|---|
